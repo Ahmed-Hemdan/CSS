@@ -1,0 +1,13 @@
+ div {
+    /* solid Color */
+    color: red;
+     /* RGB Color */
+     background-color: rgb(255, 200 , 150 , 70%) ;
+     /* Hex code Color */
+    background-color: #ff6578; 
+    /* back ground image */
+    background-image: url("../images/akali.jpg" );
+    background-attachment: fixed;
+    background-size: cover;
+
+}
