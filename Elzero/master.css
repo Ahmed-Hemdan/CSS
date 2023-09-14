@@ -1,6 +1,6 @@
  div {
     /* solid Color */
-    color: red;
+    color: blue;
      /* RGB Color */
      background-color: rgb(255, 200 , 150 , 70%) ;
      /* Hex code Color */
@@ -9,5 +9,16 @@
     background-image: url("../images/akali.jpg" );
     background-attachment: fixed;
     background-size: cover;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 4px;
+    border-color: blue;
+    border-style: dotted;
 
+}
+.displayDiv{
+    display: none;
+}
+.visableDiv{
+    visibility: hidden;
 }
