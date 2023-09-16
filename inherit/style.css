@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px blue solid;
+}
+
+div p {
+    color: red;
+    border: inherit;
+    padding: inherit;
+}
