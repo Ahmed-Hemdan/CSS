@@ -1,0 +1,8 @@
+div{
+    background-color: #EEE;
+    margin-left: 1%;
+    text-align: center;
+    width: calc(95% / 4) ;
+    float: left;
+
+}
