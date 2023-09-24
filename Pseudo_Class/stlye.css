@@ -1,0 +1,40 @@
+.one{
+    background-color: red;      
+    color: white;
+}
+
+.two
+{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    color: black;
+}
+
+.ch:checked{
+    visibility: hidden;
+  }
+  :empty{
+    border: 5px solid green;
+  }
+  .input{
+    border: 5px solid cyan;
+    outline: none;
+  }
+
+  .input:focus{
+    border-color:green;
+    outline: none;
+  }
