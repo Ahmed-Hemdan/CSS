@@ -1,0 +1,65 @@
+.one span{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.two::first-letter{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;   
+}
+
+.three::first-line{
+    color: green;
+    font-weight: bold;
+}
+
+.four::selection{
+    background-color: black;
+    color: yellow;
+}
+
+.parent{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.details{
+    float: left;
+    background-color: #eee;
+    width: 600px;
+    padding: 10px;
+    position: relative;
+}
+.details::after{
+    content: "";
+    width: 5px;
+    height: 100%;
+    background-color: #009688;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+
+.details::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    top:42%;
+    left: -25px;
+    border:#009688 solid 10px;
+    border-color: transparent #009688 transparent transparent;
+}
+.user{
+    float: left;
+    background-color: #eee;
+    width: 80px;
+    height:80px;
+    margin-right: 20px;
+    color:black;
+    text-align: center;
+    font-size: 50px;
+}
