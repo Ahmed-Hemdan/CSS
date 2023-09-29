@@ -1,20 +1,33 @@
+
+div{
+    box-sizing: border-box;
+}
 .flex{
     display: flex;
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
-    margin: 10px;
-    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eee;
+    width: 600px;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:flex-end;
+    
 }
 
 .flex div{
     background-color: red;
     color: white;
     padding: 20px;
-    margin:10px;
-    width: 20%;
+    width: calc(100% /3);
     text-align: center;
-    height: 100%;
+}
+
+.center{
+    background-color: burlywood;
+    color: white;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
