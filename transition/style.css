@@ -1,0 +1,18 @@
+.one {
+    background-color: aqua;
+    padding: 20px;
+    margin: 40px auto;
+    width: 300px;
+    height: 50px;
+    transition-duration: 0.7s;
+    transition-delay: 0.1s;
+    transition-property: height, background-color;
+    transition-timing-function: ease-in-out;
+}
+
+.one:hover {
+    background-color: bisque;
+    height: 180px;
+    width: 380px;
+
+}
