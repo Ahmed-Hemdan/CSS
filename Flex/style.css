@@ -4,13 +4,15 @@ div{
 }
 .flex{
     display: flex;
+    width: 600px;
+    align-items: center; 
     margin: 10px auto;
     padding: 10px;
     background-color: #eee;
     width: 600px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:flex-end;
+    justify-content:space-between;
     
 }
 
@@ -18,8 +20,11 @@ div{
     background-color: red;
     color: white;
     padding: 20px;
-    width: calc(100% /3);
+    width: 80px;
     text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 5px;
 }
 
 .center{
@@ -30,4 +35,9 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.one{
+    display: flex;
+    justify-content: center ;
+    flex-direction: row-reverse;
 }
