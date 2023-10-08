@@ -1,7 +1,7 @@
 .parent {
     padding: 5px;
     display: grid;
-    grid-template-columns:  repeat(6, 1fr) ;
+    grid-template-areas: "head head nav nav nav" "cont cont cont cont cont" ;
     background-color: antiquewhite;
     width: 500px;
     height: 400px;
