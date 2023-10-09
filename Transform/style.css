@@ -1,0 +1,18 @@
+div{
+    box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(212, 58, 186);
+        color: white;
+        width: 33%;
+        margin: 50px auto ;
+        height: 200px;
+        
+        
+}
+
+div:hover{
+    transform: scale(-1);
+    transition: 0.5s;
+}
